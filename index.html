@@ -1,0 +1,31 @@
+<head>
+    <meta charset="UTF-8">
+    <title>ButterflyWow</title>
+    <script type="text/javascript" src="https://npmcdn.com/parse/dist/parse.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script rel="text/javascript" src="./getInfo.js"></script>
+    <script rel="text/javascript" src="./client.min.js"></script>
+    <style>
+        body {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="well well-sm text-center">Am I so handsome?</div>
+    <div class="row">
+        <button class="btn btn-success col-xs-6" val="Yes">Yes</button>
+        <button class="btn btn-primary col-xs-6" val="No">No</button>
+    </div>
+
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+    getIP();
+    handleAction();
+})
+</script>
+
+</body>
+</html>
