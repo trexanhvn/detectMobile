@@ -19,7 +19,7 @@ function running(json) {
         screenPrint: client.getScreenPrint(),
         colorDepth: client.getColorDepth(),
         currentResolution: client.getCurrentResolution(),
-        vailableResolution: client.getAvailableResolution(),
+        availableResolution: client.getAvailableResolution(),
         deviceXDPI: client.getDeviceXDPI(),
         deviceYDPI: client.getDeviceYDPI(),
         plugins: client.getPlugins(),
@@ -37,7 +37,6 @@ function running(json) {
         isCookie: client.isCookie(),
         timeZone: client.getTimeZone(),
         language: client.getLanguage(),
-        systemLanguage: client.SystemLanguage(),
         isCanvas: client.isCanvas(),
         canvasPrint: client.getCanvasPrint(),
         
